@@ -1,0 +1,21 @@
+{
+  "kind": "AI-generated promotional cover",
+  "tool": "built-in image_gen",
+  "created_on": "2026-11-01",
+  "file": "cover-1.0.6-generated-20261101.png",
+  "prompt": "cover-1.0.6-generated-20261101.prompt.txt",
+  "mod_id": "165769",
+  "mod_version": "1.0.6",
+  "in_game_screenshot": false,
+  "uploaded": true,
+  "original_generated_file": "C:/Users/sc/.codex/generated_images/01a18ce9-f2cf-71d3-81b3-3ba1a5031610/exec-e51a4560-7aab-43e3-9ede-96ed79fdf679.png",
+  "publication": {
+    "mod_id": "165769",
+    "mod_version": "1.0.8",
+    "platform_version": "3",
+    "visibility": "Private",
+    "metadata_only": true,
+    "verified_at": "2026-11-01T09:24:53.311888+08:00",
+    "evidence": "artifacts/helicopter-generated-cover-after-20261101.json"
+  }
+}

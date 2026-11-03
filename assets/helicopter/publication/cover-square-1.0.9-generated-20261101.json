@@ -1,0 +1,36 @@
+{
+  "kind": "AI-generated square promotional cover",
+  "tool": "built-in image_gen",
+  "generated_file": "C:\\Users\\sc\\.codex\\generated_images\\01a18ce9-f2cf-71d3-81b3-3ba1a5031610\\exec-bc66a79e-be60-4bdf-9022-8b5c04d13582.png",
+  "project_file": "assets\\helicopter\\publication\\cover-square-1.0.9-generated-20261101.png",
+  "mod_id": "165769",
+  "mod_version": "1.0.9",
+  "visibility": "Private",
+  "uploaded": true,
+  "thumbnail": {
+    "file": "Thumbnail.jpg",
+    "kind": "AI-generated square promotional cover",
+    "in_game_screenshot": false,
+    "tool": "built-in image_gen",
+    "source": "D:\\Develop\\game\\CityWeaverMCP\\assets\\helicopter\\publication\\cover-square-1.0.9-generated-20261101.png",
+    "source_width": 1254,
+    "source_height": 1254,
+    "source_sha256": "0915E9D5002086B602E51DAD41F97DAFB13426C30E091D429D49450524AE8B27",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 403176,
+    "sha256": "52237E7F74BF21559E418E8E1B72CCA9A6FF2D2EAC91BBE5AF7AEEAC9B39AD8F",
+    "jpeg_quality": 95,
+    "prompt": "assets/helicopter/publication/cover-square-1.0.9-generated-20261101.prompt.txt"
+  },
+  "prepared_at": "2026-11-01T09:41:32.5703871+08:00",
+  "publication": {
+    "mod_id": "165769",
+    "version": "1.0.9",
+    "platform_version": "4",
+    "access": "Private",
+    "metadata_only": true,
+    "verified_at": "2026-11-01T09:42:24.1878673+08:00",
+    "evidence": "artifacts/helicopter-square-cover-update-20261101.json"
+  }
+}

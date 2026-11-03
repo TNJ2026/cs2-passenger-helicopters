@@ -1,0 +1,59 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.MarkerObjectPrefab, Game",
+    "name": "CityWeaver Helicopter Boarding Stop",
+    "active": true,
+    "version": 1,
+    "m_prefabFormat": 0,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 3,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.TransportStop, Game",
+                "name": "TransportStop",
+                "active": true,
+                "m_TransportType": 6,
+                "m_AccessConnectionType": 2,
+                "m_RouteConnectionType": 1,
+                "m_AccessTrackType": 0,
+                "m_RouteTrackType": 0,
+                "m_AccessRoadType": 0,
+                "m_RouteRoadType": 4,
+                "m_EnterDistance": 0,
+                "m_ExitDistance": 0,
+                "m_AccessDistance": 0,
+                "m_BoardingTime": 0.1,
+                "m_ComfortFactor": 0.5,
+                "m_LoadingFactor": 0,
+                "m_PassengerTransport": true,
+                "m_CargoTransport": false
+            },
+            {
+                "$id": 3,
+                "$type": "3|Game.Prefabs.SpawnLocation, Game",
+                "name": "SpawnLocation",
+                "active": true,
+                "m_ConnectionType": 2,
+                "m_TrackTypes": 0,
+                "m_RoadTypes": 0,
+                "m_RequireAuthorization": false,
+                "m_HangaroundOnLane": false
+            },
+            {
+                "$id": 4,
+                "$type": "4|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": null,
+                "m_Priority": 0,
+                "m_Icon": "Media/Game/Icons/AirplaneStop.svg",
+                "m_IsDebugObject": false
+            }
+        ]
+    },
+    "m_Mesh": $fstrref:"UnityGUID:ea5e58b8dff5c744d81e11eaf60d18c5",
+    "m_Circular": true
+}

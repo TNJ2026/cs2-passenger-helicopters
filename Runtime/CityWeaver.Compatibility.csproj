@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>CityWeaver</AssemblyName>
+    <RootNamespace>CityWeaver</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyTitle>Transport Fever 3 Helicopters / 狂热运输3直升机客运</AssemblyTitle>
+    <Product>Transport Fever 3 Helicopters</Product>
+    <Description>Serialized-type compatibility layer for Transport Fever 3 Helicopters.</Description>
+    <Version>1.1.10</Version>
+    <AssemblyVersion>1.36.100.0</AssemblyVersion>
+    <FileVersion>1.1.10.0</FileVersion>
+    <Configurations>Debug;Release</Configurations>
+    <!-- Local publication configuration is intentionally untracked. -->
+    <PublishConfigurationPath Condition="Exists('..\Properties\PublishConfiguration.xml')">..\Properties\PublishConfiguration.xml</PublishConfigurationPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ModToolPath>$(CSII_TOOLPATH)</ModToolPath>
+    <ModToolPath Condition="'$(ModToolPath)' == ''">$([System.Environment]::GetEnvironmentVariable('CSII_TOOLPATH', 'User'))</ModToolPath>
+  </PropertyGroup>
+  <Import Project="$(ModToolPath)\Mod.props" />
+  <Import Project="$(ModToolPath)\Mod.targets" />
+  <PropertyGroup>
+    <AssemblySearchPaths>{HintPathFromItem};$(ManagedPath);{TargetFrameworkDirectory};{RawFileName};{CandidateAssemblyFiles}</AssemblySearchPaths>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json"><Private>false</Private></Reference>
+    <Reference Include="Game"><Private>false</Private></Reference>
+    <Reference Include="Colossal.Collections"><Private>false</Private></Reference>
+    <Reference Include="Colossal.Core"><Private>false</Private></Reference>
+    <Reference Include="Colossal.Logging"><Private>false</Private></Reference>
+    <Reference Include="Colossal.Mathematics"><Private>false</Private></Reference>
+    <Reference Include="Unity.Collections"><Private>false</Private></Reference>
+    <Reference Include="Unity.Entities"><Private>false</Private></Reference>
+    <Reference Include="Unity.Mathematics"><Private>false</Private></Reference>
+    <Reference Include="UnityEngine.CoreModule"><Private>false</Private></Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Update="System"><Private>false</Private></Reference>
+    <Reference Update="System.Core"><Private>false</Private></Reference>
+  </ItemGroup>
+  <ItemGroup Condition="!Exists('$(EntityPackagePath)\SystemGenerator.dll')">
+    <Analyzer Remove="$(EntityPackagePath)\*.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Compatibility\CompatibilityAssemblyInfo.cs" />
+    <Compile Include="Compatibility\HelicopterSerializedTypes.cs" />
+    <Compile Include="Compatibility\SavedRoadSpeed.cs" />
+    <Compile Include="Compatibility\VehicleDoorProperties.cs" />
+    <Compile Include="Compatibility\VehicleModelPersistenceSystem.cs" />
+    <Compile Include="Compatibility\VehicleModelSaveData.cs" />
+    <None Include="$(ModPropsFile)" Link="Properties\Mod.props" />
+    <None Include="$(ModTargetsFile)" Link="Properties\Mod.targets" />
+  </ItemGroup>
+</Project>

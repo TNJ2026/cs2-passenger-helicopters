@@ -1,0 +1,52 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "CityWeaver_6ccc33e623ef471a9a5d9724aeeeb316_0_CWHeliportPart01 Mesh",
+    "active": true,
+    "version": 1,
+    "m_prefabFormat": 0,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:db1706bf1fe99ae29c232f1ea92be35c",
+    "m_SurfaceAssets": {
+        "$id": 2,
+        "$type": "2|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 8,
+        "$rcontent": [
+            $fstrref:"CID:bbbce59922f8de8b1f897e8daee56f1a",
+            $fstrref:"CID:49d6cadd2a87ba4066bdb29d5b3651ab",
+            $fstrref:"CID:80e9f7b5c3f7221c2c7b9d4473b09cae",
+            $fstrref:"CID:b73f928de2579ea9ac0063c901a7a775",
+            $fstrref:"CID:272d61afe3568d380695a0b19cdb4431",
+            $fstrref:"CID:a5c0b84520139c9b76baf34bd4f9d338",
+            $fstrref:"CID:d9fc1204076fbd38b57fd19473d8c68b",
+            $fstrref:"CID:af0ffaa1bc2855617242e8cc0bef694f"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "3|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "4|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -48.7964249,
+            "y": 0.196507454,
+            "z": -1.55997276
+        },
+        "max": {
+            "$type": 4,
+            "x": 14.6818733,
+            "y": 15.330162,
+            "z": 48.6285744
+        }
+    },
+    "m_SurfaceArea": 2578.65845,
+    "m_IndexCount": 18750,
+    "m_VertexCount": 18750,
+    "m_MeshCount": 8,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

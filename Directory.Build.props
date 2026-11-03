@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'CityWeaver.Compatibility'">
+    <BaseIntermediateOutputPath>obj\Compatibility\</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>obj\Compatibility\</MSBuildProjectExtensionsPath>
+    <BaseOutputPath>bin\Compatibility\</BaseOutputPath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,912 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "CityWeaver_ca89b95a71b64787a5ead4ea15f5ecc1_0_CWHangarAnimatedPart09 Mesh",
+    "active": true,
+    "version": 1,
+    "m_prefabFormat": 0,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 17,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "HangarRoot",
+                            "position": {
+                                "$type": "5|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "6|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "7|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "HangarDoor1",
+                            "position": {
+                                "$type": 5,
+                                -20.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 20.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 4,
+                            "name": "HangarDoor2",
+                            "position": {
+                                "$type": 5,
+                                -18.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 18.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 7,
+                            "$type": 4,
+                            "name": "HangarDoor3",
+                            "position": {
+                                "$type": 5,
+                                -16.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 16.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 8,
+                            "$type": 4,
+                            "name": "HangarDoor4",
+                            "position": {
+                                "$type": 5,
+                                -14.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 14.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 9,
+                            "$type": 4,
+                            "name": "HangarDoor5",
+                            "position": {
+                                "$type": 5,
+                                -12.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 12.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 10,
+                            "$type": 4,
+                            "name": "HangarDoor6",
+                            "position": {
+                                "$type": 5,
+                                -10.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 10.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 11,
+                            "$type": 4,
+                            "name": "HangarDoor7",
+                            "position": {
+                                "$type": 5,
+                                -8.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 8.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 12,
+                            "$type": 4,
+                            "name": "HangarDoor8",
+                            "position": {
+                                "$type": 5,
+                                -6.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 6.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 13,
+                            "$type": 4,
+                            "name": "HangarDoor9",
+                            "position": {
+                                "$type": 5,
+                                -2.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 2.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 14,
+                            "$type": 4,
+                            "name": "HangarDoor10",
+                            "position": {
+                                "$type": 5,
+                                -0.312,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0.312,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 15,
+                            "$type": 4,
+                            "name": "HangarDoor11",
+                            "position": {
+                                "$type": 5,
+                                1.688,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -1.688,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 16,
+                            "$type": 4,
+                            "name": "HangarDoor12",
+                            "position": {
+                                "$type": 5,
+                                3.688,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -3.688,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 17,
+                            "$type": 4,
+                            "name": "HangarDoor13",
+                            "position": {
+                                "$type": 5,
+                                5.688,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -5.688,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 18,
+                            "$type": 4,
+                            "name": "HangarDoor14",
+                            "position": {
+                                "$type": 5,
+                                7.688,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -7.688,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 19,
+                            "$type": 4,
+                            "name": "HangarDoor15",
+                            "position": {
+                                "$type": 5,
+                                9.688,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -9.688,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 20,
+                            "$type": 4,
+                            "name": "HangarDoor16",
+                            "position": {
+                                "$type": 5,
+                                11.688,
+                                0,
+                                0.275294125
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": -11.688,
+                                "m13": 0,
+                                "m23": -0.275294125,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        }
+                    ]
+                },
+                "m_Animations": null
+            },
+            {
+                "$id": 21,
+                "$type": "8|CityWeaver.VehicleDoorProperties, CityWeaver",
+                "name": "VehicleDoorProperties",
+                "active": true,
+                "m_Doors": {
+                    "$id": 22,
+                    "$type": "9|CityWeaver.VehicleDoorProperties+Door[], CityWeaver",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:7a805ee44a68a1ae4cf4dfb531d421c0",
+    "m_SurfaceAssets": {
+        "$id": 23,
+        "$type": "10|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 8,
+        "$rcontent": [
+            $fstrref:"CID:0d58e83801c4f16fc86eaec38c3cc658",
+            $fstrref:"CID:55aeca972c637342bf9220c5c56c0bc1",
+            $fstrref:"CID:93131f5fce2871eb07e370ebc8803791",
+            $fstrref:"CID:f3842463c238ef63fa94823f9da09d6f",
+            $fstrref:"CID:f3436839bc19d6ecaafd090bafdfff18",
+            $fstrref:"CID:56c06849d24dce7e9cd2e31262f39728",
+            $fstrref:"CID:542ea029da35f28666bce22be113f5c7",
+            $fstrref:"CID:4683b8af522b74edf7e6b7b38731492f"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "11|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "12|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -42.6960945,
+            "y": 0.1763668,
+            "z": -0.8208084
+        },
+        "max": {
+            "$type": 12,
+            "x": 15.4063911,
+            "y": 16.6820183,
+            "z": 49.7854843
+        }
+    },
+    "m_SurfaceArea": 12827.6416,
+    "m_IndexCount": 144006,
+    "m_VertexCount": 144006,
+    "m_MeshCount": 8,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

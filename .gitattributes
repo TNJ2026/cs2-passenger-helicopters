@@ -1,0 +1,9 @@
+# Preserve imported/exported resources byte-for-byte for SHA256 manifests.
+assets/** -text
+assets_converted/** -text
+assets_game_import/** -text
+
+# Final native game binaries are required for packaging but are too large for
+# regular Git history.
+assets/native/**/*.Texture filter=lfs diff=lfs merge=lfs -text
+assets/native/**/*.Geometry filter=lfs diff=lfs merge=lfs -text

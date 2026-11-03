@@ -1,0 +1,52 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "CityWeaver_80944cc1566c4987a0c4846531103712_0_CWHeliportTerminalPart01 Mesh",
+    "active": true,
+    "version": 1,
+    "m_prefabFormat": 0,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:96d31ee47415be3a549c19ee6bb1a6af",
+    "m_SurfaceAssets": {
+        "$id": 2,
+        "$type": "2|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 8,
+        "$rcontent": [
+            $fstrref:"CID:c5fc34999525783baeeedb7adde475ed",
+            $fstrref:"CID:53eb80274c3dc2152b45c199c2993706",
+            $fstrref:"CID:d7c30f84280f5602863385816b37902a",
+            $fstrref:"CID:fe637b7923f05ddabf1f4654c4d93f93",
+            $fstrref:"CID:2f6d1743f88bca1d119d5bbee00a58fe",
+            $fstrref:"CID:61d39e81029417af282293673f0509a4",
+            $fstrref:"CID:4fb01743b49864f2afc4168e2ca45872",
+            $fstrref:"CID:66cef3c53d7f4e964e34545364c701fd"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "3|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "4|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -49.5713043,
+            "y": 0.196513176,
+            "z": -50.6607475
+        },
+        "max": {
+            "$type": 4,
+            "x": 49.572403,
+            "y": 17.501976,
+            "z": 47.3027534
+        }
+    },
+    "m_SurfaceArea": 3114.94458,
+    "m_IndexCount": 48942,
+    "m_VertexCount": 48942,
+    "m_MeshCount": 8,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

@@ -1,0 +1,38 @@
+**/bin/
+**/obj/
+Loader/Library/
+Runtime/Library/
+artifacts/
+.tools/
+node_modules/
+.vs/
+.idea/
+*.user
+*.suo
+*.log
+__pycache__/
+tools/rotor-shader-project/Library/
+tools/rotor-shader-project/Temp/
+tools/rotor-shader-project/Logs/
+tools/rotor-shader-project/UserSettings/
+tools/rotor-shader-project/obj/
+tools/rotor-shader-project/Assets/Editor/StagedRotor*.cs*
+
+# Generated and source asset-pipeline material. The repository keeps only the
+# final runtime assets under assets/native plus lightweight publication data.
+/assets_converted/
+/assets_game_import/
+/assets/helicopter/helipad/
+/assets/helicopter/heliport/
+/assets/helicopter/mil_mi26tc/
+
+# Local publication/account state must never be committed.
+/Properties/PublishConfiguration*.xml
+/.env
+/.env.*
+/*.secrets.json
+/credentials/
+
+# Internal migration, upload, and acceptance records may contain local or
+# account-related operational details. Public documentation lives at root.
+/docs/

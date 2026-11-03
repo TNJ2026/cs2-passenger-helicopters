@@ -1,0 +1,67 @@
+param(
+    [ValidateSet('Debug', 'Release')]
+    [string]$Configuration = 'Debug',
+    [switch]$Stage,
+    [ValidateSet('PassengerHelicopters')]
+    [string]$Target = 'PassengerHelicopters'
+)
+
+$ErrorActionPreference = 'Stop'
+$runtimeRoot = Join-Path $PSScriptRoot '.tools\dotnet'
+if (!(Test-Path (Join-Path $runtimeRoot 'shared\Microsoft.NETCore.App\6.0.36'))) {
+    $runtimeRoot = Join-Path (Split-Path $PSScriptRoot -Parent) 'CityWeaverMCP\.tools\dotnet'
+}
+$previousRoot = $env:DOTNET_ROOT
+$previousX64Root = $env:DOTNET_ROOT_X64
+$sdkCommand = (Get-Command dotnet -ErrorAction Stop).Source
+if (!$Stage -and (Get-Process Cities2 -ErrorAction SilentlyContinue)) {
+    throw 'Save and close Cities: Skylines II before deployment, or use -Stage to build without deploying to the running game.'
+}
+# The official postprocessor reads the USER registry value directly, even when
+# MSBuild has every process-level path. A sandbox may hide that value.
+if ([string]::IsNullOrWhiteSpace([Environment]::GetEnvironmentVariable('CSII_UNITYVERSION', 'User'))) {
+    if (![string]::IsNullOrWhiteSpace($env:CSII_UNITYVERSION)) {
+        throw 'The official postprocessor cannot read user-level CSII_UNITYVERSION in this environment. Run the build with access to the user registry; do not reinstall the toolchain based on this sandbox error.'
+    }
+    throw 'User-level CSII_UNITYVERSION is missing. Repair the game modding-toolchain configuration before building.'
+}
+try {
+    if (Test-Path (Join-Path $runtimeRoot 'shared\Microsoft.NETCore.App\6.0.36')) {
+        $env:DOTNET_ROOT = $runtimeRoot
+        $env:DOTNET_ROOT_X64 = $runtimeRoot
+    }
+    Push-Location $PSScriptRoot
+    try {
+        $buildArguments = @('-c', $Configuration, '--nologo')
+        # The desktop host can inherit the toolchain even when MSBuild cannot
+        # read user-level environment variables. Pass these as global properties
+        # so the shared Mod.props cannot overwrite them with empty values.
+        $toolchainProperties = @{
+            ManagedPath = 'CSII_MANAGEDPATH'
+            MSCORLIBPath = 'CSII_MSCORLIBPATH'
+            UserDataPath = 'CSII_USERDATAPATH'
+            UnityModProjectPath = 'CSII_UNITYMODPROJECTPATH'
+            ModPostProcessorPath = 'CSII_MODPOSTPROCESSORPATH'
+            EntitiesVersion = 'CSII_ENTITIESVERSION'
+            LocalModsPath = 'CSII_LOCALMODSPATH'
+        }
+        foreach ($property in $toolchainProperties.Keys) {
+            if ($Stage -and $property -eq 'LocalModsPath') { continue }
+            $value = [Environment]::GetEnvironmentVariable($toolchainProperties[$property], 'Process')
+            if (![string]::IsNullOrWhiteSpace($value)) { $buildArguments += ('-p:' + $property + '=' + $value) }
+        }
+        if ($Stage) { $buildArguments += ('-p:LocalModsPath=' + (Join-Path $PSScriptRoot 'artifacts\staged')) }
+        $projects = @('Loader\PassengerHelicopters.csproj')
+        $buildExitCode = 0
+        foreach ($project in $projects) {
+            & $sdkCommand build $project @buildArguments
+            if ($LASTEXITCODE -ne 0) { $buildExitCode = $LASTEXITCODE; break }
+        }
+    } finally {
+        Pop-Location
+    }
+} finally {
+    $env:DOTNET_ROOT = $previousRoot
+    $env:DOTNET_ROOT_X64 = $previousX64Root
+}
+exit $buildExitCode

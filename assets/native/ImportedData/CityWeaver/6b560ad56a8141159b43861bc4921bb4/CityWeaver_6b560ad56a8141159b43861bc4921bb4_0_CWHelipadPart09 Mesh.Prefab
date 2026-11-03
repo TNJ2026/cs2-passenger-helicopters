@@ -1,0 +1,49 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "CityWeaver_6b560ad56a8141159b43861bc4921bb4_0_CWHelipadPart09 Mesh",
+    "active": true,
+    "version": 1,
+    "m_prefabFormat": 0,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 0,
+        "$rcontent": [
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:7550ad5ed6b70bd9b2a53b50bfdee76e",
+    "m_SurfaceAssets": {
+        "$id": 2,
+        "$type": "2|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 5,
+        "$rcontent": [
+            $fstrref:"CID:51673236535f54802e4e26c3f055911d",
+            $fstrref:"CID:4b14f8b75616fb4437300f1420628d52",
+            $fstrref:"CID:91882b6c46f4051d43413f463e7d959f",
+            $fstrref:"CID:aa983e1b3af453fd0d7dd4d46869b0a6",
+            $fstrref:"CID:869c8d4a234c847d6356e4caa23111d4"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "3|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "4|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -5.685238,
+            "y": -3.57627869E-07,
+            "z": -9.264268
+        },
+        "max": {
+            "$type": 4,
+            "x": 17.2480164,
+            "y": 4.479372,
+            "z": 15.2341938
+        }
+    },
+    "m_SurfaceArea": 258.5259,
+    "m_IndexCount": 3081,
+    "m_VertexCount": 3081,
+    "m_MeshCount": 5,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

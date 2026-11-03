@@ -1,0 +1,104 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "CityWeaver_7e149f3fb9574d47adfac7977c83d900_Lights_2",
+    "active": true,
+    "version": 1,
+    "m_prefabFormat": 0,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.EmissiveProperties, Game",
+                "name": "EmissiveProperties",
+                "active": true,
+                "m_SingleLights": {
+                    "$id": 3,
+                    "$type": "3|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SingleLightMapping, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_MultiLights": {
+                    "$id": 4,
+                    "$type": "4|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+MultiLightMapping, Game]], mscorlib",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 5,
+                            "$type": "5|Game.Prefabs.EmissiveProperties+MultiLightMapping, Game",
+                            "previewState": false,
+                            "purpose": 34,
+                            "color": {
+                                "$type": "6|UnityEngine.Color, UnityEngine.CoreModule",
+                                0.635138333,
+                                1,
+                                0.182024419,
+                                1
+                            },
+                            "colorOff": {
+                                "$type": 6,
+                                0.635138333,
+                                1,
+                                0.182024419,
+                                1
+                            },
+                            "intensity": 36,
+                            "luminance": 1,
+                            "responseTime": 0,
+                            "animationIndex": -1,
+                            "layerId": 1
+                        }
+                    ]
+                },
+                "m_AnimationCurves": {
+                    "$id": 6,
+                    "$type": "7|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+AnimationProperties, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_SignalGroupAnimations": {
+                    "$id": 7,
+                    "$type": "8|System.Collections.Generic.List`1[[Game.Prefabs.EmissiveProperties+SignalGroupAnimation, Game]], mscorlib",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:82783686dd57abaa607a24aad54ed383",
+    "m_SurfaceAssets": {
+        "$id": 8,
+        "$type": "9|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 1,
+        "$rcontent": [
+            $fstrref:"CID:af13969e867a1caaa7c175c1ad288da5"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "10|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "11|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -9.460553,
+            "y": 5.422228,
+            "z": -12.3581524
+        },
+        "max": {
+            "$type": 11,
+            "x": 12.3960218,
+            "y": 5.769541,
+            "z": 7.351118
+        }
+    },
+    "m_SurfaceArea": 3.76516247,
+    "m_IndexCount": 5544,
+    "m_VertexCount": 5544,
+    "m_MeshCount": 1,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

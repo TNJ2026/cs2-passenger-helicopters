@@ -1,0 +1,220 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.RenderPrefab, Game",
+    "name": "CityWeaver_db45d3c0aa7642b690afaa3d19b3b429_0_Mi26RotorBlur07 Mesh",
+    "active": true,
+    "version": 1,
+    "m_prefabFormat": 0,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 2,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ProceduralAnimationProperties, Game",
+                "name": "ProceduralAnimationProperties",
+                "active": true,
+                "m_Bones": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ProceduralAnimationProperties+BoneInfo[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ProceduralAnimationProperties+BoneInfo, Game",
+                            "name": "Body",
+                            "position": {
+                                "$type": "5|UnityEngine.Vector3, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0
+                            },
+                            "rotation": {
+                                "$type": "6|UnityEngine.Quaternion, UnityEngine.CoreModule",
+                                0,
+                                0,
+                                0,
+                                1
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": "7|UnityEngine.Matrix4x4, UnityEngine.CoreModule",
+                                "m00": 1,
+                                "m10": 0,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": 0,
+                                "m11": 1,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 0,
+                                "m13": 0,
+                                "m23": 0,
+                                "m33": 1
+                            },
+                            "parentId": -1,
+                            "m_Type": 0,
+                            "m_Speed": 0,
+                            "m_Acceleration": 0,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 5,
+                            "$type": 4,
+                            "name": "MainRotorBlur",
+                            "position": {
+                                "$type": 5,
+                                0.0166864,
+                                5.91186,
+                                0.985246658
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0.03393519,
+                                -2.71125145E-09,
+                                7.98489737E-08,
+                                0.99942404
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 1,
+                                "m10": -1.59789977E-07,
+                                "m20": 8.861328E-16,
+                                "m30": 0,
+                                "m01": 1.59421973E-07,
+                                "m11": 0.9976968,
+                                "m21": -0.0678312853,
+                                "m31": 0,
+                                "m02": 1.08387592E-08,
+                                "m12": 0.06783128,
+                                "m22": 0.9976968,
+                                "m32": 0,
+                                "m03": -0.0166873541,
+                                "m13": -5.965074,
+                                "m23": -0.581968367,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 0.1,
+                            "m_Acceleration": 1,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        },
+                        {
+                            "$id": 6,
+                            "$type": 4,
+                            "name": "TailRotorBlur",
+                            "position": {
+                                "$type": 5,
+                                1.18017328,
+                                6.35946655,
+                                -13.2777338
+                            },
+                            "rotation": {
+                                "$type": 6,
+                                0,
+                                0,
+                                -0.707106769,
+                                0.707106769
+                            },
+                            "scale": {
+                                "$type": 5,
+                                1,
+                                1,
+                                1
+                            },
+                            "bindPose": {
+                                "$type": 7,
+                                "m00": 5.960466E-08,
+                                "m10": 1.00000012,
+                                "m20": 0,
+                                "m30": 0,
+                                "m01": -1.00000012,
+                                "m11": 5.960466E-08,
+                                "m21": 0,
+                                "m31": 0,
+                                "m02": 0,
+                                "m12": 0,
+                                "m22": 1,
+                                "m32": 0,
+                                "m03": 6.35946751,
+                                "m13": -1.18017375,
+                                "m23": 13.2777338,
+                                "m33": 1
+                            },
+                            "parentId": 0,
+                            "m_Type": 6,
+                            "m_Speed": 0.1,
+                            "m_Acceleration": 1,
+                            "m_ConnectionID": 0,
+                            "m_SourceID": 0
+                        }
+                    ]
+                },
+                "m_Animations": null
+            },
+            {
+                "$id": 7,
+                "$type": "8|CityWeaver.VehicleDoorProperties, CityWeaver",
+                "name": "VehicleDoorProperties",
+                "active": true,
+                "m_Doors": {
+                    "$id": 8,
+                    "$type": "9|CityWeaver.VehicleDoorProperties+Door[], CityWeaver",
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                }
+            }
+        ]
+    },
+    "m_GeometryAsset": $fstrref:"CID:dc9a363a8140f387b02e969f06933d16",
+    "m_SurfaceAssets": {
+        "$id": 9,
+        "$type": "10|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$rlength": 2,
+        "$rcontent": [
+            $fstrref:"CID:f62d7ce8cbf1d19a7089c2e96a6200e1",
+            $fstrref:"CID:f9f940a543abda11c95d109573ffd531"
+        ]
+    },
+    "m_Bounds": {
+        "$type": "11|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "min": {
+            "$type": "12|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -11.0117016,
+            "y": 3.70491838,
+            "z": -15.9322815
+        },
+        "max": {
+            "$type": 12,
+            "x": 11.0450745,
+            "y": 9.014017,
+            "z": 11.9665318
+        }
+    },
+    "m_SurfaceArea": 801.624,
+    "m_IndexCount": 4608,
+    "m_VertexCount": 4608,
+    "m_MeshCount": 2,
+    "m_IsImpostor": false,
+    "m_ManualVTRequired": false
+}

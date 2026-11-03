@@ -1,0 +1,59 @@
+{
+  "unity": "2022.3.62f2",
+  "target": "StandaloneWindows64",
+  "native_skin_check": true,
+  "native_full_layout_verified": true,
+  "gpu_preflight": true,
+  "bundle_load_verified": true,
+  "inputs": [
+    {
+      "path": "tools/rotor-shader-project/Assets/RotorAngular.shader",
+      "sha256": "4013efd9c00a2f1366d0b1602f5e50c2ae5b7b79eee2ce4b668fec8a4b55d7de"
+    },
+    {
+      "path": "Runtime/Models/HelicopterRotorExposureMesh.cs",
+      "sha256": "aac016e6f537721704950434c0e32c97c0bceadf05d4f5f887d50a2706361a45"
+    },
+    {
+      "path": "Runtime/Models/HelicopterRotorExposureRules.cs",
+      "sha256": "490129aaad186104888ce8627a22231dd4b35f0e14cd587494af1154d21bfbb3"
+    },
+    {
+      "path": "tools/rotor-shader-project/Assets/Editor/RotorNativeImportFixture.cs",
+      "sha256": "5b455a2a00985452c5baea2665a6b4fd5941a0b672b55170a5470481106cef46"
+    },
+    {
+      "path": "tools/rotor-shader-project/Assets/Editor/RotorShaderChecks.cs",
+      "sha256": "3c3fe8dd31eb4392fc09700b785b9884b91b7fdeb05acc43768063bd1b06bd1a"
+    },
+    {
+      "path": "assets/native/ImportedData/CityWeaver_4a7fc21e03ce4e449bc02ae964c6ffe2/CWMilMi26tcPart01_9409d9f859de09b961b3ccac52bfc92d.Geometry",
+      "sha256": "8b649c38fc8db87d7ab64f2af9426ac62fe15707c4541960be44d407c7308184"
+    },
+    {
+      "path": "assets_game_import/mi26-rig-v6-small/CWMilMi26tcPart01.obj",
+      "sha256": "f139beeb248451e448ac5f0d9f1ddf43c720f43b116b9baa8e2d538df61c07db"
+    },
+    {
+      "path": "assets_game_import/mi26-rig-v6-small/CWMilMi26tcPart02.obj",
+      "sha256": "300745751cc9ed9d04129ad6ce3c15e4d4442e589d4dab0c14fe8a406a3c3538"
+    },
+    {
+      "path": "assets_game_import/mi26-rig-v6-small/CWMilMi26tcPart03.obj",
+      "sha256": "aeb027de329ab759f908acea2f56f74dd1056953ecb8f49ee5f217f1c8e71d3f"
+    },
+    {
+      "path": "assets_game_import/mi26-rig-v6-small/CWMilMi26tcPart04.obj",
+      "sha256": "798291eefdc251f45c13ac6b1c0a36de380efab0fe428be73bbbf51e243932b3"
+    },
+    {
+      "path": "assets_game_import/mi26-rig-v6-small/CWMilMi26tcPart05.obj",
+      "sha256": "b9bf7438b149be47b137fed2547349a2ffdb19f295c81d521035ec5120812a1e"
+    },
+    {
+      "path": "assets_game_import/mi26-rig-v6-small/CWMilMi26tcPart06.obj",
+      "sha256": "5de7884604503ce96081dcea076376e35802f65abe64e40e115d08603134023f"
+    }
+  ],
+  "sha256": "766b1d124fcaa4acb7aab47cbce35fac78af4558df80afdc9557765ec952db62"
+}

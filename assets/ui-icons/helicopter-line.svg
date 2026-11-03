@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="-8 -8 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.139" y1="0.114" x2="0.836" y2="0.86" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2c2e2e"/>
+      <stop offset="1" stop-color="#465f68"/>
+    </linearGradient>
+    <clipPath id="clip-CityWeaverHelicopterLine">
+      <rect width="64" height="64"/>
+    </clipPath>
+  </defs>
+  <g id="CityWeaverHelicopterLine" clip-path="url(#clip-CityWeaverHelicopterLine)">
+    <path id="Path_1164" data-name="Path 1164" d="M7.966,8.037,38.361-.069a8.121,8.121,0,0,1,8.175,7.7L49,40.477a7.548,7.548,0,0,1-7.915,7.486L9.819,55.215a8.121,8.121,0,0,1-8.175-7.7L-.034,17.288C-.106,13.1,3.523,7.979,7.966,8.037Z" transform="translate(31.373 -4.475) rotate(40)" fill="#b3ebff"/>
+    <path id="Path_1194" data-name="Path 1194" d="M6.922,6.895,33.349-.069a7.024,7.024,0,0,1,7.108,6.613l2.138,28.221A6.528,6.528,0,0,1,35.713,41.2L8.532,47.425a7.024,7.024,0,0,1-7.108-6.613L-.035,14.843C-.1,11.241,3.059,6.845,6.922,6.895Z" transform="translate(30.93 0.569) rotate(40)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_462" data-name="Ellipse 462" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(36.187 4.832) rotate(41)" fill="#b3ebff"/>
+    <ellipse id="Ellipse_465" data-name="Ellipse 465" cx="4" cy="4.5" rx="4" ry="4.5" transform="translate(28.187 47.832) rotate(41)" fill="#b3ebff"/>
+    <!-- Front-view passenger helicopter, native route-icon palette and scale. -->
+    <g id="PassengerHelicopter">
+      <path d="M31 24V18.5a1 1 0 0 1 2 0V24" fill="#e1fdff"/>
+      <path d="M14 21.6L31.8 20.3 50 21.6 50 22.6 32 22 14 22.6Z" fill="#c37d3c"/>
+      <rect x="30" y="20" width="4" height="3" rx="1" fill="#e6dede"/>
+      <path d="M27 36L25 43M37 36L39 43" fill="none" stroke="#e6dede" stroke-width="1.8"/>
+      <path d="M21 43H28M36 43H43" fill="none" stroke="#b3ebff" stroke-width="2" stroke-linecap="round"/>
+      <path d="M32 24C26.4 24 24 28.8 24 34.8 24 39.3 27.5 41 32 41 36.5 41 40 39.3 40 34.8 40 28.8 37.6 24 32 24Z" fill="#e1fdff"/>
+      <path d="M25 34.6H39V37.2C37.6 40 26.4 40 25 37.2Z" fill="#ffb067"/>
+      <path d="M27 28.5C28 26 36 26 37 28.5L38 32H26Z" fill="#3b424d"/>
+      <path d="M32 27V32" stroke="#e1fdff" stroke-width="1"/>
+      <path d="M28 38C29 39.8 35 39.8 36 38" fill="#fff"/>
+    </g>
+  </g>
+</svg>

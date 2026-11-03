@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+const root=process.cwd(),dir=path.join(root,'artifacts/native-conversion-validation');
+fs.mkdirSync(dir,{recursive:true});
+fs.writeFileSync(path.join(dir,'Validate.csproj'),`<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework></PropertyGroup><ItemGroup><Compile Include="${root}/tools/validation-source/ObjMeshRules.cs"/><Compile Include="${root}/tools/validation-source/AssetFileRules.cs"/></ItemGroup></Project>`);
+fs.writeFileSync(path.join(dir,'Program.cs'),`using System;using System.IO;using System.Linq;using CityWeaver;
+class Program{static int Main(string[] args){int count=0,fail=0;long triangles=0;foreach(var file in Directory.GetFiles(args[0],"*.obj",SearchOption.AllDirectories)){try{var parts=ObjMeshRules.Parse(File.ReadLines(file));triangles+=parts.Sum(p=>(long)p.Indices.Count/3);count++;}catch(Exception e){Console.WriteLine(file+": "+e.Message);fail++;}}foreach(var folder in Directory.GetDirectories(args[0],"LOD*",SearchOption.AllDirectories)){try{AssetFileRules.Scan(folder);foreach(var p in Directory.GetFiles(folder,"*.png")){AssetFileRules.ImageSize(File.ReadAllBytes(p),".png",out var w,out var h);}}catch(Exception e){Console.WriteLine(folder+": "+e.Message);fail++;}}Console.WriteLine($"Validated {count} OBJ files, {triangles} triangles, {fail} failures");return fail==0?0:1;}}`);
+const output=execFileSync(process.env.HELICOPTERS_TEST_DOTNET || 'dotnet',['run','--project',path.join(dir,'Validate.csproj'),'--',path.join(root,'assets_converted')],{encoding:'utf8',timeout:180000});
+fs.writeFileSync(path.join(root,'assets_converted/validation.txt'),output);console.log(output);
