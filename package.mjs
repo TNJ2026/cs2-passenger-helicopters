@@ -105,7 +105,7 @@ export async function packageMod({userData,staged,output,includeMcp=false}) {
     root_prefabs:names,asset_count:closure.assets.length,external_native_asset_cids:closure.external,
     files:records.map(({source,...record})=>record)};
   fs.writeFileSync(path.join(output,'manifest.json'),JSON.stringify(manifest,null,2));
-  for(const name of ['Install.ps1','README.md','README.en.md','PLAYER-GUIDE.zh-CN.md','PLAYER-GUIDE.en.md','CREDITS.md','CHANGELOG.md','PUBLICATION.md'])fs.copyFileSync(path.join(moduleRoot,name),path.join(output,name));
+  for(const name of ['Install.ps1','README.md','README.en.md','README.zh-CN.md','README-banner.png','PLAYER-GUIDE.zh-CN.md','PLAYER-GUIDE.en.md','CREDITS.md','CHANGELOG.md','PUBLICATION.md'])fs.copyFileSync(path.join(moduleRoot,name),path.join(output,name));
   fs.writeFileSync(path.join(output,'package-complete.json'),JSON.stringify({files:records.length,asset_count:closure.assets.length,logical_bytes:records.reduce((n,r)=>n+r.bytes,0),unique_bytes:[...hashes.keys()].reduce((n,key)=>n+records.find(r=>r.sha256===key).bytes,0)},null,2));
   return {output,asset_count:closure.assets.length,files:records.length,mcp_required:false};
 }

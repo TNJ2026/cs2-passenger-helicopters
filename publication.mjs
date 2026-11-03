@@ -6,7 +6,7 @@ import {assetClosure,inside,rootPrefabNames} from './package.mjs';
 
 const moduleRoot=path.dirname(fileURLToPath(import.meta.url));
 const repository=moduleRoot;
-const docs=['README.md','README.en.md','PLAYER-GUIDE.zh-CN.md','PLAYER-GUIDE.en.md','CREDITS.md','CHANGELOG.md','PUBLICATION.md'];
+const docs=['README.md','README.en.md','README.zh-CN.md','README-banner.png','PLAYER-GUIDE.zh-CN.md','PLAYER-GUIDE.en.md','CREDITS.md','CHANGELOG.md','PUBLICATION.md'];
 const artwork=['Thumbnail.jpg','Screenshot-airport.jpg','Screenshot-helipad.jpg','Screenshot-menu.jpg','Screenshot-line.jpg'];
 const catalogFile=path.join(repository,'assets/helicopter/publication-assets.json');
 export async function sha256(file) {

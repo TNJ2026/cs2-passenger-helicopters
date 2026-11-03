@@ -1,13 +1,15 @@
 # CS2 Passenger Helicopters
 
-[简体中文](README.md) | [English](README.en.md)
+[English](README.md) | [简体中文](README.zh-CN.md)
 
 An operational passenger-helicopter system for Cities: Skylines II, featuring a twin-pad heliport, a standalone rooftop helipad, and the Mil Mi-26TC passenger helicopter.
 
 [![Paradox Mods](https://img.shields.io/badge/Paradox%20Mods-Subscribe-5b69c6)](https://mods.paradoxplaza.com/mods/165769/Windows)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
-![Mil Mi-26TC passenger helicopter](Properties/Screenshot-mi26.png)
+![CS2 Passenger Helicopters](README-banner.png)
+
+*AI-generated promotional artwork; not a gameplay screenshot.*
 
 ## Features
 

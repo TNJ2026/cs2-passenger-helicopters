@@ -1,0 +1,3 @@
+Generated with the built-in image generation tool.
+Use case: ads-marketing. Ultra-wide 3:1 GitHub README banner for CS2 Passenger Helicopters.
+Modern coastal city at warm sunrise, rooftop helipad and twin-pad heliport, urban transport connections. Large white and blue civilian Mil Mi-26 passenger helicopter in flight on the right, single main rotor and tail rotor, three-quarter view. Premium realistic city-building promotional illustration, navy blue and warm gold. Left typography: CS2 / PASSENGER HELICOPTERS. Subtitle: Passenger transport above the city. Generous safe margins, legible text. No third-party logos, badges, UI, watermarks, or military equipment. Promotional artwork, not a gameplay screenshot.
